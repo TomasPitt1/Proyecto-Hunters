@@ -1,0 +1,23 @@
+@use "components/_footer.scss";
+
+@use "components/_header.scss";
+
+@use "global/_reset.scss";
+
+@use "pages/_index.scss";
+
+@use "pages/_ocr.scss";
+
+@use "pages/_calendario.scss";
+
+@use "pages/entrenamiento.scss";
+
+@use "pages/_miembros.scss";
+
+@use "utilities/_extend.scss";
+
+@use "utilities/_media-query.scss";
+
+@use "utilities/_mixin.scss";
+
+@use "utilities/_variable.scss";
