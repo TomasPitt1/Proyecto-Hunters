@@ -1,19 +1,15 @@
 main{
     .foto-caja {
         width: 250px;
-        height: auto
+        height: 250px;
     }
 
     .que-es-ocr {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 150px;
+        margin-right: 150px;
         margin-bottom: 20px;
-        align-items: center;
-        padding: 2px;
     }
     
     h2 {
@@ -23,12 +19,22 @@ main{
     }
 
     h3 {
+        text-align: center;
         font-size: 35px;
-        margin-top: 10px;
+        margin-top: 15px;
+        text-decoration: underline;
     }
-    
-    .lista-que-es-ocr {
-        font-size: 30px;
-        margin-top: 10px;
+
+    h4{
+        text-decoration: underline;
+    }
+    .tipos-obstaculos{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 150px;
+        margin-right: 150px;
+        align-items: center;
+        border: 2px solid black;
     }
 }
