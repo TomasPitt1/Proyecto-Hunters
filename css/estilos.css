@@ -138,7 +138,16 @@ main h3 {
 main h4 {
   text-decoration: underline;
 }
-main .tipos-obstaculos {
+main .tipos-obstaculos1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+  border: 2px solid black;
+}
+main .tipos-obstaculos2 {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
@@ -173,6 +182,21 @@ main .nombre-carrera {
   margin-top: 10px;
 }
 
+.entrenamientos {
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dia {
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 2px solid black;
+  text-align: center;
+}
+
 main .miembros {
   margin-top: 30px;
   margin-left: 30px;
@@ -205,14 +229,14 @@ main .foto-integrante {
     font-size: 18px;
   }
   .parrafo-inicio {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   .miembros {
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 30px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
   .calendario-carreras {
     flex-direction: column;
@@ -221,6 +245,24 @@ main .foto-integrante {
   }
   .carreras {
     margin-top: 30px;
+  }
+  .que-es-ocr {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  .tipos-obstaculos1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    text-align: center;
+  }
+  .tipos-obstaculos2 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    text-align: center;
   }
 }
 
