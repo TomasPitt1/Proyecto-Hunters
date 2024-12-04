@@ -191,8 +191,8 @@ main .nombre-carrera {
 }
 
 .dia {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
   border: 2px solid black;
   text-align: center;
 }
