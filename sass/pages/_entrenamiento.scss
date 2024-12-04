@@ -13,3 +13,22 @@
     border: 2px solid black;
     text-align: center;
 }
+
+    iframe{
+        width: 260px;
+        height: 260px;
+        margin-top: 45px;
+    }
+    .formulario{
+        margin-top: 40px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 225px;
+    }
+
+    .informacion{
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+    }

@@ -1,10 +1,12 @@
 @media (max-width: 768px) {
-    footer{
+    footer {
         font-size: 18px;
     }
-    .parrafo-inicio{
+
+    .parrafo-inicio {
         font-size: 18px !important;
     }
+
     .miembros {
         margin-top: 30px !important;
         margin-left: 20px !important;
@@ -28,20 +30,35 @@
         margin-right: 30px !important;
     }
 
-    .tipos-obstaculos1{
+    .tipos-obstaculos1 {
         display: flex;
         flex-direction: column;
         margin-left: 50px !important;
         margin-right: 50px !important;
         text-align: center;
     }
-    .tipos-obstaculos2{
+
+    .tipos-obstaculos2 {
         display: flex;
         flex-direction: column-reverse;
         margin-left: 50px !important;
         margin-right: 50px !important;
         text-align: center;
     }
-}
 
-    
+    .titulo-principal {
+        font-size: 40px !important;
+    }
+
+    .entrenamientos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .informacion {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
