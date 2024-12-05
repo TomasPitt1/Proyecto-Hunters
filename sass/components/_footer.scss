@@ -1,6 +1,7 @@
+@use "../utilities/variable";
 footer {
     background-color: black;
-    color: rgb(74, 30, 113);
+    color: variable.$color-principal;
     font-size: 22px;
     margin-top: 20px;
     display: flex;
@@ -23,7 +24,7 @@ footer {
         }
 
         .link-hunters {
-            color: rgb(74, 30, 113);
+            color: variable.$color-principal;
             text-decoration: none;
         }
     }

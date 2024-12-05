@@ -1,3 +1,4 @@
+@use "../utilities/variable";
 header {
     width: 100%;
     height: auto;
@@ -21,10 +22,10 @@ header {
                     text-decoration: none;
                     font-size: 20px;
                     font-weight: bold;
-                    color: rgb(74, 30, 113);
+                    color: variable.$color-principal;
 
                     &:hover {
-                        background-color: rgb(74, 30, 113);
+                        background-color: variable.$color-principal;
                         color: black;
                     }
                 }

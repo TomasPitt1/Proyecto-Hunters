@@ -1,15 +1,16 @@
+@use "../utilities/variable";
 .entrenamientos{
     margin-top: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     }
 
 
 .dia{
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 2px solid black;
     text-align: center;
 }
@@ -24,7 +25,7 @@
         margin-left: 30px;
         display: flex;
         flex-direction: column;
-        width: 225px;
+        width: 230px;
     }
 
     .informacion{

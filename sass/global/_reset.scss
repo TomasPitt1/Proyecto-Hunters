@@ -1,4 +1,4 @@
-
+@use "../utilities/variable";
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +7,11 @@
 
 
 body {
-    background-color: rgb(74, 30, 113);
+    background-color: variable.$color-principal;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+// rgb(74, 30, 113)
 
 p {
     font-size: 20px;
