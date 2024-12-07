@@ -147,7 +147,7 @@ main h3 {
 main h4 {
   text-decoration: underline;
 }
-main .tipos-obstaculos {
+main .tipos-obstaculos1, main .tipos-obstaculos2 {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
@@ -162,7 +162,7 @@ main .titulo-secundario {
 }
 main .proximas-carreras {
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
 }
 main .calendario-carreras {
   margin-top: 30px;
@@ -264,12 +264,15 @@ main .foto-integrante {
     margin-left: 30px !important;
     margin-right: 30px !important;
   }
-  .tipos-obstaculos {
+  .tipos-obstaculos1, .tipos-obstaculos2 {
     display: flex;
     flex-direction: column;
     margin-left: 50px !important;
     margin-right: 50px !important;
     text-align: center;
+  }
+  .tipos-obstaculos2 {
+    flex-direction: column-reverse;
   }
   .entrenamientos {
     display: grid;

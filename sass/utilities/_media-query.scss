@@ -31,12 +31,16 @@
         margin-right: 30px !important;
     }
 
-    .tipos-obstaculos {
+    .tipos-obstaculos1, .tipos-obstaculos2 {
         display: flex;
         flex-direction: column;
         margin-left: 50px !important;
         margin-right: 50px !important;
         text-align: center;
+    }
+
+    .tipos-obstaculos2{
+        flex-direction: column-reverse;
     }
 
     .entrenamientos {
