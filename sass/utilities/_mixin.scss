@@ -1,0 +1,13 @@
+@mixin mixin-grid ($mtop, $mleft, $mright, $dis, $col, $gap) {
+    margin-top: $mtop;
+    margin-left: $mleft;
+    margin-right: $mright;
+    display: $dis;
+    grid-template-columns: $col;
+    gap: $gap;
+}
+
+@mixin fotos ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}

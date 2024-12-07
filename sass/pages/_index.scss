@@ -1,5 +1,7 @@
 @use "../utilities/variable";
-main{
+@use "../utilities/extend";
+
+main {
     .imagen-principal {
         display: block;
         margin-left: auto;
@@ -8,17 +10,12 @@ main{
         height: auto;
         margin-top: 20px;
     }
+
     .parrafo-inicio {
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-        text-align: center;
+        @extend %parrafo;
     }
+
     .titulo-principal {
-        text-align: center;
-        font-size: 60px;
-        margin-top: 30px;
-        text-decoration: underline;
+        @extend %titulos;
     }
-    }
+}

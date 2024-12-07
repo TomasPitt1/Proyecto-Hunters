@@ -1,10 +1,18 @@
 @use "../utilities/variable";
-main{
+@use "../utilities/extend";
+@use "../utilities/mixin";
+
+main {
+    .titulo-secundario {
+        @extend %titulos;
+        font-size: 50px;
+    }
+
     .proximas-carreras {
         text-align: center;
         font-size: 40px;
     }
-    
+
     .calendario-carreras {
         margin-top: 30px;
         width: 100%;
@@ -14,18 +22,19 @@ main{
         gap: 100px;
         flex-wrap: wrap;
     }
-    
+
     .foto-carrera {
-        width: 300px;
-        height: 300px;
+        @include mixin.fotos (300px, 300px);
     }
-    
+
+
     .carreras {
-        text-align: center;
-        border: 2px, rgb(7, 0, 0), solid;
+        @extend %cuadros;
+        padding-left: 0;
+        padding-right: 0;
     }
-    
-    .nombre-carrera{
+
+    .nombre-carrera {
         margin-top: 10px;
     }
 }

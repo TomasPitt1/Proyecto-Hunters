@@ -1,26 +1,23 @@
 @use "../utilities/variable";
-.entrenamientos{
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+@use "../utilities/extend";
+@use "../utilities/mixin";
+
+main {
+    .entrenamientos {
+        @include mixin.mixin-grid (30px, 70px, 70px, grid, 1fr 1fr, 30px);
     }
 
+    .dia {
+        @extend %cuadros;
+    }
 
-.dia{
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 2px solid black;
-    text-align: center;
-}
-
-    iframe{
+    iframe {
         width: 260px;
         height: 260px;
         margin-top: 45px;
     }
-    .formulario{
+
+    .formulario {
         margin-top: 40px;
         margin-left: 30px;
         display: flex;
@@ -28,8 +25,9 @@
         width: 230px;
     }
 
-    .informacion{
+    .informacion {
         display: flex;
         margin-left: 50px;
         margin-right: 50px;
     }
+}

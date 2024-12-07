@@ -1,50 +1,49 @@
 @use "../utilities/variable";
-main{
+@use "../utilities/extend";
+@use "../utilities/mixin";
+
+main {
     .foto-caja {
-        width: 250px;
-        height: 250px;
+        @include mixin.fotos (250px, 250px);
+    }
+
+    .titulo-secundario {
+        @extend %titulos;
+        font-size: 50px;
     }
 
     .que-es-ocr {
-        text-align: center;
-        margin-top: 20px;
+        @extend %parrafo;
         margin-left: 150px;
         margin-right: 150px;
-        margin-bottom: 20px;
+
+        video {
+            margin-top: 10px;
+            width: 350px;
+            height: 350px;
+            background-color: variable.$color-principal;
+            border: variable.$bordes;
+        }
     }
-    
-    h2 {
-        font-size: 45px;
-        margin-top: 10px;
-        text-decoration: underline;
-    }
+
 
     h3 {
-        text-align: center;
+        @extend %titulos;
         font-size: 35px;
         margin-top: 15px;
+    }
+
+    h4 {
         text-decoration: underline;
     }
 
-    h4{
-        text-decoration: underline;
-    }
-    .tipos-obstaculos1{
+    .tipos-obstaculos {
         display: flex;
         justify-content: space-between;
         margin-top: 30px;
         margin-left: 150px;
         margin-right: 150px;
         align-items: center;
-        border: 2px solid black;
+        border: variable.$bordes;
     }
-    .tipos-obstaculos2{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
-    align-items: center;
-    border: 2px solid black;
-}
 }
