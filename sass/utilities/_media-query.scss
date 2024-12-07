@@ -39,13 +39,9 @@
         text-align: center;
     }
 
-    .titulo-principal {
-        font-size: 40px !important;
-    }
-
     .entrenamientos {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 
     .informacion {
