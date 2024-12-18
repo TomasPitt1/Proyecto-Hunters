@@ -28,13 +28,13 @@ main {
     }
 
 
-    h3 {
+    h2 {
         @extend %titulos;
         font-size: 35px;
         margin-top: 15px;
     }
 
-    h4 {
+    h3 {
         text-decoration: underline;
     }
 

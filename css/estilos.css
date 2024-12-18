@@ -87,11 +87,11 @@ p {
   width: 100%;
 }
 
-h1, h2 {
+h1 {
   text-align: center;
 }
 
-main .titulo-secundario, main h3, main .titulo-principal {
+main .titulo-secundario, main h2, main .titulo-principal {
   text-align: center;
   font-size: 60px;
   margin-top: 30px;
@@ -140,11 +140,11 @@ main .que-es-ocr video {
   border: 2px solid black;
   align-items: center;
 }
-main h3 {
+main h2 {
   font-size: 35px;
   margin-top: 15px;
 }
-main h4 {
+main h3 {
   text-decoration: underline;
 }
 main .tipos-obstaculos1, main .tipos-obstaculos2 {
