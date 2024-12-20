@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: variable.$color-principal;
+    background-image: linear-gradient(variable.$color-principal, variable.$color-terciario, variable.$color-principal);
     color: variable.$color-secundario;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

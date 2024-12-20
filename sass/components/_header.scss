@@ -2,7 +2,8 @@
 header {
     width: 100%;
     height: auto;
-    background-color: black;
+    background-image: linear-gradient(variable.$color-secundario 85%, variable.$color-principal);
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
 

@@ -1,7 +1,8 @@
 @use "../utilities/variable";
 footer {
-    background-color: black;
+    background-image: linear-gradient(variable.$color-principal, variable.$color-secundario 15%);
     color: variable.$color-principal;
+    padding-top: 10px;
     font-size: 22px;
     margin-top: 20px;
     display: flex;
